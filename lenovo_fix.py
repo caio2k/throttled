@@ -18,6 +18,9 @@ from platform import uname
 from threading import Event, Thread
 from time import time
 
+sys.path.insert(0, "/usr/lib/python3/dist-packages")
+
+
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
 from gi.repository import GLib
